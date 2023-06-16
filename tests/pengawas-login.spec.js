@@ -18,7 +18,7 @@ test('fills in username and password and submits the form', async ({page}) => {
 	await page.click('#view-home');
 	await page.click('#view-token');
 	await page.click('#view-absensi');
-	await page.check('#cek-hadir-0')
+	await page.check('#cek-hadir-0');
   });
 
 
